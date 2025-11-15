@@ -285,17 +285,7 @@ html {
   }
 
   .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
-    clip-path: ellipse(148% 70% at 91% -14%);
+      background: var(--tertiary-hover);
   }
 
   body.no-ember .background-container {
@@ -608,12 +598,7 @@ html body #main-outlet {
   }
 
   &::before {
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
-    clip-path: ellipse(148% 70% at 91% -14%);
+    background: var(--tertiary-hover);
     content: "";
     width: 100%;
     height: 100%;
