@@ -1,11 +1,11 @@
 {
   "name": "RISCstar Theme",
+  "authors": "RISCstar (and Discourse)",
   "about_url": "https://github.com/riscstar/discourse-riscstar",
   "license_url": "https://github.com/riscstar/discourse-riscstar/blob/main/LICENSE",
   "components": [
-    "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
-    "https://github.com/discourse/discourse-clickable-topic.git",
-    "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/discourse/discourse-minimal-category-boxes.git",
+    "https://github.com/discourse/discourse-clickable-topic.git"
   ],
   "modifiers": {
     "serialize_topic_excerpts": true
@@ -40,5 +40,5 @@
       "love": "c16ad7"
     }
   },
-  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
+  "screenshots": ["screenshots/light.webp", "screenshots/dark.webp"]
 }
